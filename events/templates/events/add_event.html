@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add Event</title>
+
+</head>
+
+
+<body style="background-color:#d0bdf4">
+    <h1 style='margin-left: 30px;'>Add Event</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class='btn' style="border:2px solid black;text-decoration:none;border-radius:0.5rem ;padding: 6px;background-color:#80669d
+
+            ;color:white;margin-left: 30px;">Submit</button>
+    </form>
+</body>
+
+</html>
